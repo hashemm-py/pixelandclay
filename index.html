@@ -62,8 +62,7 @@
       z-index: 10;
       top: 0;
       border-bottom: 1px solid rgb(234 223 213 / 80%);
-      background: rgb(251 247 240 / 94%);
-      backdrop-filter: blur(14px);
+      background: var(--cream);
     }
 
     .header-inner {
@@ -890,10 +889,10 @@
   </style>
 </head>
 <body>
-  <div class="announcement">A little joy, made by hand — welcome to our tiny creative corner ♡</div>
+  <div class="announcement" id="top">A little joy, made by hand — welcome to our tiny creative corner ♡</div>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#home" aria-label="Pixel and Clay home">
+      <a class="brand" href="#top" aria-label="Pixel and Clay home">
         <img src="./Logo.jpg" alt="Pixel and Clay dog logo">
         <span class="brand-name">Pixel and Clay<small>Little things, lots of heart</small></span>
       </a>
